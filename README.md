@@ -1,3 +1,1 @@
-# CodeSpaces-Demo
-
-A place to show-off Jupyter notebooks in Codespaces
+Material for the IATD Python Data Science course will appear here
