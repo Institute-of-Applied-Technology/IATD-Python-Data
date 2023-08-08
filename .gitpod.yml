@@ -1,0 +1,11 @@
+tasks:
+  - init: pip install -r requirements.txt
+
+vscode:
+  extensions:
+    - ms-python.python
+    - ms-toolsai.jupyter
+
+ports:
+  - port: 9000-9100
+    onOpen: ignore
