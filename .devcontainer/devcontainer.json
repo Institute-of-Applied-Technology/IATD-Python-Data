@@ -1,24 +1,17 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "image": "mcr.microsoft.com/devcontainers/universal",
     "hostRequirements": {
       "cpus": 4
     },
     "waitFor": "onCreateCommand",
-    "updateContentCommand": "python3 -m pip install -r requirements.txt",
-    "postCreateCommand": "",
+    "updateContentCommand": "python -m pip install -r requirements.txt",
     "customizations": {
-      "codespaces": {
-        "openFiles": []
-      },
       "vscode": {
         "extensions": [
           "ms-toolsai.jupyter",
           "ms-python.python"
         ]
       }
-    },
-    "features": {
-      "ghcr.io/devcontainers/features/python:1": {"installJupyterlab": true}
     }
   }
   
